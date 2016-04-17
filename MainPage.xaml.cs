@@ -34,7 +34,7 @@ namespace PoorMans.Browser
             CoreApplicationViewTitleBar coreTitleBar = CoreApplication.GetCurrentView().TitleBar;
             coreTitleBar.ExtendViewIntoTitleBar = true;
 
-            WebView.Navigate(new Uri("http://localhost:1337"));
+            WebView.Navigate(new Uri("http://localhost:3000"));
         }
     }
 }
