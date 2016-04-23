@@ -1,0 +1,10 @@
+gpu_mem=32                  # set ARM to 480Mb DRAM, VC to 32Mb DRAM
+framebuffer_ignore_alpha=1  # Ignore the alpha channel for Windows.
+framebuffer_swap=1          # Set the frame buffer to be Windows BGR compatible.
+disable_overscan=1          # Disable overscan
+init_uart_clock=16000000    # Set UART clock to 16Mhz
+hdmi_group=2                # Use VESA Display Mode Timing over CEA
+hdmi_mode=0x24				# Use HDMI_DMT_SXGA_75 = 0x24, 280x1024 75hz
+arm_freq=900
+arm_freq_min=900
+force_turbo=1
